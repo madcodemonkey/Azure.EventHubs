@@ -5,8 +5,10 @@ Currently it will Json serialize Deal.cs into a string and then send it as a byt
 It will also receive the deal from the default consumer group, convert the byte array to a JSON string and print it to the screen.
 
 # Changes you need to make
-1. Add the connection string for your event hub to the appsettings.json file.
+1. Add an event hub connection string to the appsettings.json file.
 2. Add the name of the event hub to the appsettings.json file.
+3. Add a Blob connection string to the appsettings.json file.
+4. Add a Blob container name to the appsettings.json file.
 
 Notes
 - I suggest using secrets for this project (the NuGet package is already installed).  Right click the project and select "Manage User Secrets"
