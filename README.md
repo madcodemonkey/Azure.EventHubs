@@ -1,7 +1,5 @@
 # Azure EventHubs
 
-# Azure Service Bus
-
 ## Projects List
 - 
   
