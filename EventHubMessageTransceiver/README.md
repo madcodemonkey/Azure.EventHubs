@@ -6,9 +6,10 @@ It will also receive the deal from the default consumer group, convert the byte 
 
 # Changes you need to make
 1. Add an event hub connection string to the appsettings.json file.
-2. Add the name of the event hub to the appsettings.json file.
-3. Add a Blob connection string to the appsettings.json file.
-4. Add a Blob container name to the appsettings.json file.
+1. Add the name of the event hub to the appsettings.json file.
+1. Add a Blob connection string to the appsettings.json file.
+   - As a reminder when generating out the SAS token, don't forget to check both the "Container" and "Object" under "Allowed resource types".  Failure to do this will get you an "AuthorizationResourceTypeMismatch" error.
+1. Add a Blob container name to the appsettings.json file.
 
 Notes
 - I suggest using secrets for this project (the NuGet package is already installed).  Right click the project and select "Manage User Secrets"
