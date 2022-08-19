@@ -8,7 +8,7 @@ It will also receive the deal from the default consumer group, convert the byte 
 1. Add an event hub connection string to the appsettings.json file.
 1. Add the name of the event hub to the appsettings.json file.
 1. Add a Blob connection string to the appsettings.json file.
-   - As a reminder when generating out the SAS token, don't forget to check both the "Container" and "Object" under "Allowed resource types".  Failure to do this will get you an "AuthorizationResourceTypeMismatch" error.
+   - As a reminder when generating out the SAS token to get a connection string, don't forget to check both the "Container" and "Object" under "Allowed resource types".  Failure to do this will get you an "AuthorizationResourceTypeMismatch" error.
 1. Add a Blob container name to the appsettings.json file.
 
 Notes
