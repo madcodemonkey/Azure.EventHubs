@@ -1,4 +1,4 @@
-# Azure EventHubs
+# Azure Event Hubs
 
 ## Projects List
 - Event Hub Message Transceiver (EventHubMessageTransceiver) - This is a console application designed to 
