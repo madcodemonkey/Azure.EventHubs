@@ -10,10 +10,8 @@ Notes
 - See the readme.md file in each project for setup instructions.
 
 ## Branching scheme
-- Main branch: .NET Core 6.0 example
-- [Future] I will create a branch for older .NET items as I retire them.
-
-
+- DotNet6: .NET Core 6.0 example
+- [Future] I will create a branch for each version of .NET 
 
 ## Create a **Basic** tier Event Hub bus with a single hub
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fmadcodemonkey%2fAzure.EventHubs%2fmain%2fARM-files%2fEventHubBasicTierWithOneHub.json" target="_blank">
