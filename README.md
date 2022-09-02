@@ -1,7 +1,7 @@
 # Azure Event Hubs
 
 ## Projects List
-- Event Hub Message Transceiver (EventHubMessageTransceiver) - This is a console application designed to 
+- Event Hub Message Transceiver (EventHubMessageTransceiver.sln) - This is a console application designed to 
     - Send a message to an event hub
     - Retrieve all the message from an event hub
    
